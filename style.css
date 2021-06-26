@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  background: url(/images/bg-desktop.svg);
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.9;
+  background-color: #674baf;
+  color: white;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 1.5em;
+  font-weight: 400;
+  padding: 0px;
+}
+
+.main-body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  padding: 20px;
+}
+
+.write-ups {
+  padding: 40px 100px;
+}
+
+/* Utilities */
+.container {
+  padding: 30px 10px;
+}
+
+.btn {
+  border: 2px solid white;
+  -webkit-box-shadow: 40px 10px 1 black;
+          box-shadow: 40px 10px 1 black;
+  font-size: large;
+  border-radius: 30px;
+  height: 40px;
+  width: 120px;
+  color: #674baf;
+  background-color: white;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #e882e8;
+  border: #e882e8;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
