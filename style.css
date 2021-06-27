@@ -11,6 +11,8 @@
   opacity: 0.9;
   background-color: #674baf;
   color: white;
+  -webkit-animation: small;
+          animation: small;
 }
 
 .navbar {
@@ -25,7 +27,12 @@
           align-items: center;
   line-height: 1.5em;
   font-weight: 400;
-  padding: 0px;
+  padding: 20px 30px;
+  font-size: 25px;
+}
+
+.navbar i {
+  padding: 0px 10px 0px 0px;
 }
 
 .main-body {
@@ -33,22 +40,65 @@
   display: grid;
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
-  padding: 20px;
+  padding: 0px 20px;
 }
 
 .write-ups {
-  padding: 40px 100px;
+  padding: 40px 130px;
+}
+
+.write-ups h2 {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+}
+
+.write-ups p {
+  font-size: 1.2rem;
+  font-weight: 50;
+  padding-bottom: 30px;
+  margin-bottom: 0.5em;
+  padding: 0px -100px;
+}
+
+.image-holder {
+  height: 20vh;
+  width: 20vw;
+}
+
+.image-holder img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.icons {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 80%;
+  left: 78%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.icons i {
+  padding: 10px 5px;
 }
 
 /* Utilities */
 .container {
-  padding: 30px 10px;
+  padding: 2% 4%;
 }
 
 .btn {
   border: 2px solid white;
-  -webkit-box-shadow: 40px 10px 1 black;
-          box-shadow: 40px 10px 1 black;
+  -webkit-box-shadow: 7px 7px 10px black;
+          box-shadow: 7px 7px 10px black;
   font-size: large;
   border-radius: 30px;
   height: 40px;
@@ -62,5 +112,6 @@
   background-color: #e882e8;
   border: #e882e8;
   color: white;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
